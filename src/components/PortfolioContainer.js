@@ -27,7 +27,7 @@ function PortfolioContainer() {
 
     return (
       <div>
-        <div className="flex-row px-1 space-between">
+        <div className="flex-row px-1 space-between align-center jumbotron">
           <Header />
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>

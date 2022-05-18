@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --lightPurple: #f0d9ff;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -94,12 +94,18 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
   margin: 10px;
 }
 
 header a {
-  color: var(--light);
+  color: var(--dark);
+  transition: 0.5s;
+}
+
+header a:hover {
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 button {
@@ -290,7 +296,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--light);
+	color: var(--dark);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -304,4 +310,17 @@ a {
 
 .icon-padding {
   padding-right: 5px;
+}
+
+nav li {
+  transition: 0.5s;
+}
+nav li :hover {
+  color: var(--primary);
+  transition: 0.5s;
+}
+
+.jumbotron {
+  background-color: var(--lightPurple);
+  border-radius: 5px;
 }
