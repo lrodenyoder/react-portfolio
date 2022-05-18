@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex-row justify-center">
+    <div className="flex-row justify-center py-1">
       <ul className="flex-row">
         <li className='mx-2'>
           <span className="socials">

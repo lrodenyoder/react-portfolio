@@ -366,3 +366,42 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+
+.hoverCard {
+  position: relative;
+}
+
+.imgHover {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middleHover {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hoverCard:hover .imgHover {
+  opacity: 0.3;
+}
+
+.hoverCard:hover .middleHover {
+  opacity: 1;
+}
+
+.textHover {
+  color: black;
+  font-weight: bold;
+}
+
+p.card-text.textHover{
+  font-size: 0.75rem;
+}
