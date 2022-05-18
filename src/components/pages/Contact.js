@@ -75,8 +75,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        {/* && is used as a short circuit. if the first value resolves to true, the second value will be evaluated */}
-        <button type="submit" onSubmit={handleSubmit} data-testid="submit-btn">
+        <button type="submit" onSubmit={handleSubmit}>
           Submit
         </button>
       </form>

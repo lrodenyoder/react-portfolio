@@ -341,3 +341,12 @@ nav li :hover {
 .about p {
   text-align: center;
 }
+
+.resume-list li{
+  display: list-item;
+  list-style: circle;
+}
+
+.resume {
+  color: var(--primary);
+}
