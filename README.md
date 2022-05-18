@@ -9,7 +9,7 @@ This project is intended to be a personal portfolio. The purpose is to provide a
 
 ## Personal Portfolio
 -------------------------
-[Click Here](https://lrodenyoder.github.io/Lauren-Yoder-Portfolio-Page/) to go to the portfolio website
+[Click Here](https://lrodenyoder.github.io/react-portfolio) to go to the portfolio website
 <p>
   <img src="src/assets/README-screenshot.jpg" alt="Personal portfolio webpage screenshot"/>
 </p>
