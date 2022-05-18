@@ -31,7 +31,7 @@ function PortfolioContainer() {
           <Header />
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>
-        {renderPage()}
+        <div className="py-2 px-2">{renderPage()}</div>
       </div>
     );
 }

@@ -248,11 +248,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -361,4 +356,8 @@ nav li :hover {
 
 .socialList {
   background-color: white;
+}
+
+.projectTile {
+  border: 1px solid red;
 }
