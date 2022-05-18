@@ -324,3 +324,20 @@ nav li :hover {
   background-color: var(--lightPurple);
   border-radius: 5px;
 }
+
+.avatar {
+    border-radius: 50%;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about p {
+  text-align: center;
+}
