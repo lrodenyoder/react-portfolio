@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Nav() {
+function Resume() {
     return (
         <div>
-            <nav>Navigation Here</nav>
+            Resume Here
         </div>
     )
 };
 
-export default Nav;
+export default Resume;

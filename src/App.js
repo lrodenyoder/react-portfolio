@@ -1,15 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
-// import Project from './components/Project';
+import PortfolioContainer from './components/PortfolioContainer';
 // import Footer from './components/Footer';
 
 function App() {
+
   return (
     <div>
-      <Header />
-      <main>
-        {/* <Project /> */}
-      </main>
+      <PortfolioContainer />
+
       {/* <Footer /> */}
 </div>
   );
