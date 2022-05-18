@@ -26,12 +26,14 @@ function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
-            <Header />
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+      <div>
+        <div className="flex-row px-1 space-between">
+          <Header />
+          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        </div>
+        {renderPage()}
       </div>
-  );
+    );
 }
 
 export default PortfolioContainer;

@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 function Nav({ currentPage, handlePageChange }) {
+  useEffect(() => {
+    document.title = currentPage
+  });
+  
   return (
     <nav>
       <ul className="flex-row">
-        <li>
+        <li className="mx-1">
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
@@ -13,7 +17,7 @@ function Nav({ currentPage, handlePageChange }) {
             About Me
           </a>
         </li>
-        <li>
+        <li className="mx-1">
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
@@ -22,7 +26,7 @@ function Nav({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li>
+        <li className="mx-1">
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -31,7 +35,7 @@ function Nav({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li>
+        <li className="mx-1">
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}

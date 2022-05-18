@@ -20,7 +20,7 @@ main {
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
 }
 
@@ -290,7 +290,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -300,4 +300,8 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.icon-padding {
+  padding-right: 5px;
 }
