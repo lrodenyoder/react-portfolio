@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.eccf6659.css",
+    "main.js": "/react-portfolio/static/js/main.ffa5e647.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/run-buddy-screenshot.jpg": "/react-portfolio/static/media/run-buddy-screenshot.c7163b016fe36d47bbaf.jpg",
+    "static/media/homebuddy-screenshot.jpg": "/react-portfolio/static/media/homebuddy-screenshot.e611659cc96d506e373f.jpg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.32accee5a3bcc836499a.pdf",
+    "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.c6948c020ff01aa37714.jpg",
+    "static/media/nutrigainz-screenshot.jpg": "/react-portfolio/static/media/nutrigainz-screenshot.b6b420e2626ccd4134d0.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.eccf6659.css.map": "/react-portfolio/static/css/main.eccf6659.css.map",
+    "main.ffa5e647.js.map": "/react-portfolio/static/js/main.ffa5e647.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eccf6659.css",
+    "static/js/main.ffa5e647.js"
+  ]
+}
