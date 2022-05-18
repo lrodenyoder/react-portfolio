@@ -361,3 +361,8 @@ nav li :hover {
 .projectTile {
   border: 1px solid red;
 }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
