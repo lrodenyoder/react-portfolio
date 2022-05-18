@@ -9,7 +9,7 @@ function About() {
         className="avatar"
       />
       <h2>Hello! My name is Lauren</h2>{" "}
-      <p>
+      <p className="mx-1">
         I am an receptionist at a diagnostic imaging center from Dallas, TX.
         Currently, I am enrolled in a UT Austin Coding Bootcamp. My hope is to
         work in web development in the near future. I love to play video games,

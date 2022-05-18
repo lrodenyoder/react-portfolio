@@ -191,6 +191,10 @@ textarea {
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .align-center {
   align-items: center;
 }
@@ -349,4 +353,12 @@ nav li :hover {
 
 .resume {
   color: var(--primary);
+}
+
+.socials {
+  font-size: 30px;
+}
+
+.socialList {
+  background-color: white;
 }
